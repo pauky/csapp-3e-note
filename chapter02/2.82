@@ -1,0 +1,18 @@
+A. (x<y) == (-x>-y)
+Wrong, when x = INT_MIN
+
+B. ((x+y)<<4)+y-x == 17*y+15*x
+Right
+
+C. ~x+~y+1 == ~(x+y)
+Right
+~x+1 + ~y+1 -1 = -x + (-y) - 1 = -(x+y) - 1 = ~(x+y)
+
+D. (ux - uy) == -(unsigned)(y-x)
+Right
+-(ux - uy) = (unsigned)(y-x)
+(uy - ux) == (unsigned)(y-x)
+
+E. (x>>2) << 2 <= x
+Right
+左边x低位的两个二进制位被截断，所以比原来的x小
