@@ -154,3 +154,6 @@ return;
 So we can get the phase_2 is: "1 2 4 8 16 32".
 
 
+
+## reference
+[bomb lab record](https://www.cnblogs.com/kangyupl/p/13052593.html)
